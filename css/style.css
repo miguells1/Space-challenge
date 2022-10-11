@@ -1,0 +1,154 @@
+/********************** TAG SELECTORS **********************/
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0;
+    color: #ffffff;
+}
+
+h1{
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    font-weight: lighter;
+    margin: 24px 0 24px 0;
+    text-transform: uppercase;
+}
+
+h4{
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin: 0;
+    position: absolute;
+    left: 69.5px;
+    top: 118px;
+}
+
+h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+hr{
+    border-style: solid none none none;
+    width: 473px;
+    opacity: 0.5;
+    position: absolute;
+    top: 48px;
+    left: 112px;
+    margin: 0;
+}
+
+p{
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    color: #D0D6F9;
+    font-weight: lighter;
+    letter-spacing: 2px
+}
+
+span{
+    font-weight: bolder;
+}
+
+/********************** CLASS SELECTORS **********************/
+
+.background-img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header{
+    position: absolute;
+    top: 40px;
+    left: 55px;
+    width: 1385px;
+    height: 96px;
+}
+
+.nav-bar{
+    height: 96px;
+    width: 830px;
+    position: absolute;
+    left: 555px;
+    background-color:rgba(255,255,255,0.15) 
+}
+
+.logo-img{
+    height: 48px;
+    position: absolute;
+    top: 24px;
+}
+
+.nav-text{
+    font-size: 16px;
+    margin: 39px;
+    letter-spacing: 2.7px;
+    padding: 0 0 37px 0;
+    position: relative;
+    top: 37px;
+}
+
+.home{
+    margin-left: 123px;
+}
+
+.nav-text:hover{
+    border: 2px;
+    border-style: none none solid none;
+    color: #D0D6F9;
+}
+
+.nav-text:active{
+    border: 2px;
+    border-style: none none solid none;
+}
+
+.content-home-left{
+    width: 450px;
+    height: 382px;
+    position: absolute;
+    left: 165px;
+    top: 387px;
+}
+
+.explore-btn{
+    position: absolute;
+    left: 913px;
+    top: 407px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.explore-btn:hover{
+    position: absolute;
+    left: 913px;
+    top: 407px;
+    background-color:rgba(255,255,255,0.15) ;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    visibility: visible;
+}
+
+.content-home-right{
+    position: absolute;
+    left: 88px;
+    top: 88px;
+    color: #0B0D17;
+    background-color: #ffffff;
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    visibility: visible;
+
